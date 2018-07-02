@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Mono');
 .container {
-  padding-top: 6rem;
+  padding-top: 1rem;
 }
 
 body {
   background-size: cover;
-  background-repeat:no-repeat;
   color: #fff;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, .5);
+  font-family: 'PT Mono', monospace;
   min-height: 1vh;
 }
 
@@ -27,10 +27,6 @@ li {
   padding: 1rem;
 }
 
-.card:last-of-type {
-  display: none;
-}
-
 @media(min-width:1500px) {
   .container {
     width: 66%;
@@ -42,7 +38,6 @@ li {
 
 body {
   background-image: url('https://i.imgur.com/As3dgHW.jpg');
-   font-family: 'PT Mono', monospace;
 }
 
 h2 {
