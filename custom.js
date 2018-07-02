@@ -5,6 +5,9 @@ function glenToDo() {
   /*The way this call works is really cool! You can check out the details of what each bit of the URL-thing below is doing at: https://developers.google.com/sheets/api/guides/concepts 
   Sidenote: if you copy + paste the URL below into your browser you can see the array in a totally useless but kinda interesting way (no viruses, pinky swear!)*/
   var json = $.getJSON("https://sheets.googleapis.com/v4/spreadsheets/1ZDI3TOYKbliJxHWt76d_-ay6sz0e2OpA6LB63vuKKlk/values/'To Do'/?key=AIzaSyA1T4CcA8nnxMfxShN7Blrinr9y7LL5CzY", function(json) {
+  
+  //Reset card values on each run of the function
+  $('.card').remove();
 
     //Response granted, no need to light any more incense!
     /*Got the whole JSON object from the API call in a single variable called 'json'. Below we are setting up some ground rules for what I'll be keen to know about going forward, in specific I'll be needing to know how many rows are in the sheet which I get from json.values.length so I hook that value to the variable 'y' */
@@ -41,4 +44,4 @@ console.log(valList);
 glenToDo();
 
 //Refresh the page every 15 minutes
-setInterval(glenToDo, 900*1000);
+setInterval(glenToDo, 900*10);
