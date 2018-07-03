@@ -44,4 +44,4 @@ console.log(valList);
 glenToDo();
 
 //Refresh the page every 15 minutes
-setInterval(glenToDo, 900*10);
+setInterval(glenToDo, 900*1000);
