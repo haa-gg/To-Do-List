@@ -67,4 +67,4 @@ var classes = ["one", "two", "three"];
 skinToggle();
 
 //Every 8 hours switch look n' feel
-setInterval(skinToggle, 288*100);
+setInterval(skinToggle, 288*10000);
