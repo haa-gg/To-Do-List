@@ -18,7 +18,6 @@ function glenToDo() {
 
         /*Below we are setting one array "coordinate" to change each time we run this little loop (variable i is saying switch which sub-array is being looked at ever iteration but always look at the same value within the new sub-array), and another that swaps each time we do a larger loop rotation (variable x is saying to look at a new value within each sub-array we cycle through)*/
         var valList = json.values[i][x];
-        //console.log(json.values[1][x]);
 
         //Loop the JSON values till you run out of stuff to spit out but don't add any HTML if you're just adding blank HTML elements
         if (valList != '' && valList != null && valList != ' ') {
@@ -26,7 +25,7 @@ function glenToDo() {
           //On first loop iteration, make a new card with an unordered list in it
           if (i == 1) {
             $('.card-columns').append('<div class="card '+ valList +'"><ul></ul></div>');
-console.log(valList);
+
             //Make the first value an H2 header
             $('.card:last-of-type ul').append('<h2>' + valList + '</h2>');
           } else {
@@ -45,3 +44,27 @@ glenToDo();
 
 //Refresh the page every 15 minutes
 setInterval(glenToDo, 900*1000);
+
+//Just one look n' feel is SO LAME-- this segment gives our script a sudden urge to switch it up once every 8 hours
+function skinToggle(){
+
+//Nix the old class running the show before assuming our fresh new look
+  $("body").removeClass();
+
+//A cleverly named variable array that alludes to the array position right in the name of each variable
+var classes = ["one", "two", "three"];
+
+//Literally saying each object defined as a body will have this function performed on it, probably not an idea statement but it does the trick
+    $("body").each(function(){
+
+      //Finally the good bit where we pick a class at random from our array and stick it on the body object(s)
+        $(this).addClass(classes[~~(Math.random()*classes.length)]);
+    });
+    
+}
+
+//Trigger function on main script load
+skinToggle();
+
+//Every 8 hours switch look n' feel
+setInterval(skinToggle, 288*100);

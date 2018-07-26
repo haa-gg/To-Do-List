@@ -1,45 +1,67 @@
-@import url('https://fonts.googleapis.com/css?family=PT+Mono');
+@import url("https://fonts.googleapis.com/css?family=PT+Mono");
 .container {
-  padding-top: 4rem;
-}
+  padding-top: 1rem; }
 
 body {
   background-size: cover;
   color: #fff;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, .5);
-  min-height: 100vh;
-}
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  min-height: 100vh; }
 
 h2 {
-  font-size: 1.33rem;
-}
+  font-size: 1.33rem; }
 
 li {
   list-style-type: none;
   margin-bottom: .75rem;
-  line-height: 140%;
-}
+  line-height: 140%; }
 
 .card {
-  background-color: rgba(0, 0, 0, .55);
+  background-color: rgba(0, 0, 0, 0.55);
   border-radius: 0;
-  padding: 1rem;
-}
+  padding: 1rem; }
 
-@media(min-width:1500px) {
+@media (min-width: 1500px) {
   .container {
     width: 66%;
-    max-width: 66%;
-  }
-}
+    max-width: 66%; } }
 
 /* Skin system 1: Mr. Fancypants Linux guy */
+.one {
+  background-image: url("https://i.imgur.com/As3dgHW.jpg");
+  font-family: 'PT Mono', monospace; }
+  .one h2 {
+    color: #ffcc00; }
 
-body {
-  background-image: url('https://i.imgur.com/As3dgHW.jpg');
+/* Skin 2: Edgelord h4xx0r */
+.two {
+  background-image: url("https://i.imgur.com/fdecKL6.jpg");
+  font-family: 'PT Mono', monospace; }
+  .two .container {
+    float: left; }
+  .two h2 {
+    color: #f5d967; }
+
+/* Skin 3: Colors so loud you could file a noise complaint */
+.three {
+  background-image: url("https://imgur.com/u1OB6Ji.jpg");
   font-family: 'PT Mono', monospace;
-}
-
-h2 {
-  color: #ffcc00;
-}
+  text-shadow: none; }
+  .three .card-columns {
+    column-count: 2; }
+  .three .card {
+    background-color: rgba(255, 255, 255, 0.8); }
+  .three .container {
+    width: 100%;
+    max-width: 100%; }
+  .three li {
+    float: left;
+    padding: 0 1rem 0 0;
+    border-right: 1px solid #ea04a7;
+    margin: 0 1rem 0 0;
+    color: #ea04a7; }
+  .three li:last-of-type {
+    border: none; }
+  .three h2 {
+    color: #2ddbf3;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); }
