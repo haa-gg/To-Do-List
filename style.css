@@ -67,26 +67,25 @@ li {
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); }
 
 /* Skin 4: Forest full of hella trees */
-.four .card-columns .card {
-  background-color: transparent;
-  width: 80%;
-  padding: 0rem;
-  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5); }
-
-.four li:nth-child(odd) {
-  background-color: rgba(200, 200, 200, 0.5); }
-
-.four li:nth-child(even) {
-  background-color: rgba(255, 255, 255, 0.5); }
-
-.four .container {
-  width: 100%;
-  max-width: 100%;
-  padding-left: 10%; }
-
-.four body {
+.four {
   background-image: url('https"//imgur.com/01mJSy5.jpg');
   font-family: 'PT Mono', monospace; }
-
-.four h2 {
-  color: #000; }
+  .four .card-columns .card {
+    background-color: transparent;
+    width: 80%;
+    padding: 0rem;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5); }
+  .four ul {
+    margin-bottom: 0; }
+    .four ul li {
+      margin-bottom: 0; }
+    .four ul li:nth-child(odd) {
+      background-color: rgba(200, 200, 200, 0.5); }
+    .four ul li:nth-child(even) {
+      background-color: rgba(255, 255, 255, 0.5); }
+  .four .container {
+    width: 100%;
+    max-width: 100%;
+    padding-left: 10%; }
+  .four h2 {
+    color: #000; }
