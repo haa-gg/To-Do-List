@@ -1,4 +1,16 @@
 @import url("https://fonts.googleapis.com/css?family=PT+Mono");
+@font-face {
+  font-family: 'victorian';
+  src: url("victorian_parlor_vintage_alternate_free-webfont.woff2") format("woff2"), url("victorian_parlor_vintage_alternate_free-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'modern_serif';
+  src: url("modern_serif_eroded-webfont.woff2") format("woff2"), url("modern_serif_eroded-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
 .container {
   padding-top: 1rem; }
 
@@ -98,3 +110,19 @@ li {
     padding-left: 10%; }
   .four h2 {
     color: #000; }
+
+/* Skin 5: Chaotic Neutral Time Traveler*/
+.five {
+  background-color: #000; }
+  .five .container {
+    width: 100%;
+    max-width: 100%; }
+  .five h2 {
+    font-family: 'victorian';
+    color: #fff;
+    font-size: 3rem; }
+  .five .card-columns .card {
+    background-color: transparent; }
+  .five ul li {
+    font-family: 'modern_serif';
+    color: #fff; }
