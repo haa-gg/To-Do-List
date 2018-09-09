@@ -55,29 +55,42 @@ li {
     color: #f5d967; }
 
 /* Skin 3: Colors so loud you could file a noise complaint */
-.three {
-  background-image: url("https://imgur.com/u1OB6Ji.jpg");
+/* .three {
+  background-image: url('https://imgur.com/u1OB6Ji.jpg');
   font-family: 'PT Mono', monospace;
-  text-shadow: none; }
-  .three .card-columns {
-    column-count: 2; }
-  .three .card {
-    background-color: rgba(255, 255, 255, 0.8); }
-  .three .container {
-    width: 100%;
-    max-width: 100%; }
-  .three li {
-    float: left;
-    padding: 0 1rem 0 0;
-    border-right: 1px solid #ea04a7;
-    margin: 0 1rem 0 0;
-    color: #ea04a7; }
-  .three li:last-of-type {
-    border: none; }
-  .three h2 {
-    color: #2ddbf3;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); }
+  text-shadow:none;
 
+  .card-columns{
+    column-count: 2;
+  }
+
+  .card{
+    background-color:rgba(255,255,255,0.8)
+  }
+
+  .container{
+    width:100%;
+    max-width:100%;
+  }
+
+  li{
+    float:left;
+    padding:0 1rem 0 0;
+    border-right:1px solid #ea04a7;
+    margin:0 1rem 0 0;
+    color: #ea04a7;
+  }
+
+
+  li:last-of-type{
+    border:none;
+  }
+
+  h2 {
+    color: #2ddbf3;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, .5);
+  } 
+} */
 /* Skin 4: Forest full of hella trees */
 .four {
   background-image: url("https://imgur.com/01mJSy5.jpg");
@@ -112,17 +125,31 @@ li {
     color: #000; }
 
 /* Skin 5: Chaotic Neutral Time Traveler*/
-.five {
-  background-color: #000; }
-  .five .container {
-    width: 100%;
-    max-width: 100%; }
-  .five h2 {
-    font-family: 'victorian';
-    color: #fff;
-    font-size: 3rem; }
-  .five .card-columns .card {
-    background-color: transparent; }
-  .five ul li {
-    font-family: 'modern_serif';
-    color: #fff; }
+/* .five{
+
+background-color:#000;
+
+.container{
+  width:100%;
+  max-width:100%;
+}
+
+  h2{
+    font-family:'victorian';
+    color:#fff;
+    font-size:3rem;
+  }
+
+  .card-columns .card {
+    background-color: transparent;
+  }
+
+  ul{
+
+    li{
+      font-family:'modern_serif';
+      color:#fff;
+    }
+  }
+
+} */
