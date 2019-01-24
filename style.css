@@ -55,7 +55,8 @@ li {
   font-family: 'PT Mono', monospace;
   text-shadow: none; }
   .three h2 {
-    font-family: 'special_request_-_demoregular'; }
+    font-family: 'special_request_-_demoregular';
+    font-size: 2.5rem; }
 
 /* Skin 4: Forest full of hella trees */
 .four {
