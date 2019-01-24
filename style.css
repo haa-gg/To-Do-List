@@ -40,60 +40,29 @@ li {
 
 /* Skin system 1: Mr. Fancypants Linux guy */
 .one {
-  background-image: url("https://i.imgur.com/As3dgHW.jpg");
+  background-image: url("images/bg-1.jpg");
   font-family: 'PT Mono', monospace; }
   .one h2 {
     color: #ffcc00; }
 
 /* Skin 2: Edgelord h4xx0r */
 .two {
-  background-image: url("https://i.imgur.com/WU9NkNm.jpg");
+  background-image: url("images/bg-2.jpg");
   font-family: 'PT Mono', monospace; }
   .two .container {
     float: left; }
   .two h2 {
     color: #f5d967; }
 
-/* Skin 3: Colors so loud you could file a noise complaint */
-/* .three {
-  background-image: url('https://imgur.com/u1OB6Ji.jpg');
+/* Skin 3: cosmic teatime */
+.three {
+  background-image: url("images/bg-3.jpg");
   font-family: 'PT Mono', monospace;
-  text-shadow:none;
+  text-shadow: none; }
 
-  .card-columns{
-    column-count: 2;
-  }
-
-  .card{
-    background-color:rgba(255,255,255,0.8)
-  }
-
-  .container{
-    width:100%;
-    max-width:100%;
-  }
-
-  li{
-    float:left;
-    padding:0 1rem 0 0;
-    border-right:1px solid #ea04a7;
-    margin:0 1rem 0 0;
-    color: #ea04a7;
-  }
-
-
-  li:last-of-type{
-    border:none;
-  }
-
-  h2 {
-    color: #2ddbf3;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, .5);
-  } 
-} */
 /* Skin 4: Forest full of hella trees */
 .four {
-  background-image: url("https://imgur.com/01mJSy5.jpg");
+  background-image: url("images/bg-4.jpg");
   font-family: 'PT Mono', monospace;
   color: #000; }
   .four .card-columns .card {
