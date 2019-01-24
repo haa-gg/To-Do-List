@@ -52,7 +52,7 @@ function skinToggle(){
   $("body").removeClass();
 
 //A cleverly named variable array that alludes to the array position right in the name of each variable
-var classes = ["one", "two", "three", "four"];
+var classes = ["one", "two", "three", "four", "five"];
 
 //Literally saying each object defined as a body will have this function performed on it, probably not an idea statement but it does the trick
     $("body").each(function(){

@@ -1,12 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Mono');
 
 @font-face {
-    font-family: 'special_request_-_demoregular';
-    src: url('fonts/special_request-webfont.woff2') format('woff2'),
-         url('fonts/special_request-webfont.woff') format('woff');
+  font-family: 'special_request_-_demoregular';
+  src: url('fonts/special_request-webfont.woff2') format('woff2'),
+  url('fonts/special_request-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'the_goldsmith_vintagevintage';
+    src: url('fonts/the_goldsmith_vintage-webfont.woff2') format('woff2'),
+         url('fonts/the_goldsmith_vintage-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 .container {
@@ -23,7 +30,7 @@ body {
 h2 {
   font-size: 1.33rem;
 }
- 
+
 li {
   list-style-type: none;
   margin-bottom: .75rem;
@@ -73,15 +80,15 @@ li {
 
 /* Skin 3: cosmic teatime */
 
- .three {
+.three {
   background-image: url('images/bg-3.jpg');
   font-family: 'PT Mono', monospace;
   text-shadow:none;
 
-h2{
-  font-family: 'special_request_-_demoregular';
-  font-size:2.5rem; 
-}
+  h2{
+    font-family: 'special_request_-_demoregular';
+    font-size:2.5rem; 
+  }
 
 }  
 
@@ -143,33 +150,17 @@ h2{
 
 }
 
-/* Skin 5: Chaotic Neutral Time Traveler*/
+/* Skin 5: Chill AF Lumberjack*/
 
-/* .five{
+.five{
+  background-image: url('images/bg-5.jpg');
+  font-family: 'PT Mono', monospace;
+  color:#fff;
+  text-transform:uppercase;
 
-background-color:#000;
-
-.container{
-  width:100%;
-  max-width:100%;
+h2{
+  font-size:2.5rem;
+   font-family: 'the_goldsmith_vintagevintage';
 }
 
-  h2{
-    font-family:'victorian';
-    color:#fff;
-    font-size:3rem;
-  }
-
-  .card-columns .card {
-    background-color: transparent;
-  }
-
-  ul{
-
-    li{
-      font-family:'modern_serif';
-      color:#fff;
-    }
-  }
-
-} */
+} 

@@ -5,6 +5,12 @@
   font-weight: normal;
   font-style: normal; }
 
+@font-face {
+  font-family: 'the_goldsmith_vintagevintage';
+  src: url("fonts/the_goldsmith_vintage-webfont.woff2") format("woff2"), url("fonts/the_goldsmith_vintage-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
 .container {
   padding-top: 1rem; }
 
@@ -91,32 +97,12 @@ li {
   .four h2 {
     color: #000; }
 
-/* Skin 5: Chaotic Neutral Time Traveler*/
-/* .five{
-
-background-color:#000;
-
-.container{
-  width:100%;
-  max-width:100%;
-}
-
-  h2{
-    font-family:'victorian';
-    color:#fff;
-    font-size:3rem;
-  }
-
-  .card-columns .card {
-    background-color: transparent;
-  }
-
-  ul{
-
-    li{
-      font-family:'modern_serif';
-      color:#fff;
-    }
-  }
-
-} */
+/* Skin 5: Chill AF Lumberjack*/
+.five {
+  background-image: url("images/bg-5.jpg");
+  font-family: 'PT Mono', monospace;
+  color: #fff;
+  text-transform: uppercase; }
+  .five h2 {
+    font-size: 2.5rem;
+    font-family: 'the_goldsmith_vintagevintage'; }
