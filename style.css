@@ -1,13 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=PT+Mono");
 @font-face {
-  font-family: 'victorian';
-  src: url("victorian_parlor_vintage_alternate_free-webfont.woff2") format("woff2"), url("victorian_parlor_vintage_alternate_free-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'modern_serif';
-  src: url("modern_serif_eroded-webfont.woff2") format("woff2"), url("modern_serif_eroded-webfont.woff") format("woff");
+  font-family: 'special_request_-_demoregular';
+  src: url("fonts/special_request-webfont.woff2") format("woff2"), url("fonts/special_request-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 
@@ -43,7 +37,8 @@ li {
   background-image: url("images/bg-1.jpg");
   font-family: 'PT Mono', monospace; }
   .one h2 {
-    color: #ffcc00; }
+    color: #ffcc00;
+    font-size: 2rem; }
 
 /* Skin 2: Edgelord h4xx0r */
 .two {
@@ -59,6 +54,8 @@ li {
   background-image: url("images/bg-3.jpg");
   font-family: 'PT Mono', monospace;
   text-shadow: none; }
+  .three h2 {
+    font-family: 'special_request_-_demoregular'; }
 
 /* Skin 4: Forest full of hella trees */
 .four {
