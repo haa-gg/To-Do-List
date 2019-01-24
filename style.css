@@ -106,3 +106,5 @@ li {
   .five h2 {
     font-size: 2.5rem;
     font-family: 'the_goldsmith_vintagevintage'; }
+  .five .card {
+    background-color: rgba(0, 0, 0, 0.85); }
