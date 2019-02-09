@@ -113,7 +113,8 @@ li {
 
 /* Skin 6: Beynd Belief Comfy */
 .six {
-  background-image: url("images/bg-6.jpg"); }
+  background-image: url("images/bg-6.jpg");
+  font-family: 'PT Mono', monospace; }
   .six .container {
     float: left;
     max-width: 33%; }
