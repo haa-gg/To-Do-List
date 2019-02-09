@@ -25,6 +25,8 @@ body {
   color: #fff;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, .5);
   min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 h2 {
@@ -168,3 +170,33 @@ h2{
 }
 
 } 
+
+/* Skin 6: Beynd Belief Comfy */
+
+.six {
+
+  background-image: url('images/bg-6.jpg');
+
+  .container{
+    float:left;
+  }
+
+  .card{
+    background-color:transparent;
+    border:none;
+  }
+
+  h2{
+    font-size:1rem;
+  }
+
+  ul{
+    padding:0;
+    margin:0;
+
+    li{
+      font-size:.75rem;
+    }
+  }
+
+}
