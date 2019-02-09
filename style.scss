@@ -179,11 +179,18 @@ h2{
 
   .container{
     float:left;
+    max-width:33%;
+  }
+
+  .card-colums{
+    column-count:2;
   }
 
   .card{
     background-color:transparent;
     border:none;
+    margin:0;
+    padding:0;
   }
 
   h2{

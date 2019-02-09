@@ -115,10 +115,15 @@ li {
 .six {
   background-image: url("images/bg-6.jpg"); }
   .six .container {
-    float: left; }
+    float: left;
+    max-width: 33%; }
+  .six .card-colums {
+    column-count: 2; }
   .six .card {
     background-color: transparent;
-    border: none; }
+    border: none;
+    margin: 0;
+    padding: 0; }
   .six h2 {
     font-size: 1rem; }
   .six ul {
