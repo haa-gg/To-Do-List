@@ -100,17 +100,6 @@ li {
     color: #000; }
 
 /* Skin 5: Chill AF Lumberjack*/
-.five {
-  background-image: url("images/bg-5.jpg");
-  font-family: 'PT Mono', monospace;
-  color: #fff;
-  text-transform: uppercase; }
-  .five h2 {
-    font-size: 2.5rem;
-    font-family: 'the_goldsmith_vintagevintage'; }
-  .five .card {
-    background-color: rgba(0, 0, 0, 0.85); }
-
 /* Skin 6: Beynd Belief Comfy */
 .six {
   background-image: url("images/bg-6.jpg");
